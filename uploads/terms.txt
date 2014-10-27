@@ -1,0 +1,46 @@
+Exudative Pleural Effusion Pneumonia
+Transudative Pleural Effusion Pneumonia
+Liver Disease
+Renal Disease
+Malnutrition
+Empyema
+Malignancy
+Lupus
+TB
+Sarcoidosis
+Esophageal Rupture
+Pleurisy
+Hemothorax
+Inflammatory Effusion
+Malignant Effusion
+Obstructive Foreign Body aspiration
+Emphysema 
+Non- Obstructive ARDS
+Mass
+Pneumonia
+Lung Contusion
+Mucus
+Pulmonary Edema
+Pneumonia
+Pneumonitis
+Acute Rejection of Transplanted Lung
+ARDS
+Hemorrhage
+Pulmonary Contusion
+Drug Toxicity
+Sarcoidosis
+Pneumonia
+Pulmonary Hemorrhage
+Carcinoma
+TB
+atelectasis
+Heart Failure
+Renal Failure
+Volume Overload
+Trauma
+SLE
+Sarcoid
+Pneumonia
+Hemorrhage
+TB
+Hemorrhage
