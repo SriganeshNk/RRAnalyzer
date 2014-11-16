@@ -10,11 +10,14 @@ var abs_path = '/home/sriganesh/Documents/IS/RoughWork/Needed/App/RRAnalyzer/';
 
 router.get('/uploads', function(req, res) { 
 	console.log("inside upload get function");
-  	res.render('index', {title: "I love files!"}); 
+  	res.redirect('/'); 
 });
 
 router.post('/uploads', function(req, res) {
 	console.log("inside uploads post function");
+	if (typeof req.files.myFile === 'undefined') {
+		res.render('index', {title: "I love files!"}); 
+	}
 	if (req.files.myFile.extension === 'pdf') {
 		var options = {
 			type : 'text'
@@ -33,9 +36,7 @@ router.post('/uploads', function(req, res) {
 				fs.appendFileSync(abs_path+'uploads/message.txt', data.text_pages[i]);
 				console.log("Append finished");
 			}
-	/*		});
-	} Need to implement for txt files as well.
-	if (req.files.myFile.extension === 'txt') { */
+			var id = data.text_pages.toString().split('\n');
 			var dir_path = abs_path+'uploads/';
 			shell.cd(dir_path);
 			if (shell.exec('sh normalize.sh').code == 0) {
@@ -44,27 +45,26 @@ router.post('/uploads', function(req, res) {
 				var finalreport = []
 				var contents = fs.readFileSync(abs_path+'uploads/result.txt');
 				contents =  contents.toString();
-				contents = contents.split('.');
+				contents = contents.split('\n');
 				contents.pop();
 				var diagnose = fs.readFileSync(abs_path+'uploads/diagnose.txt');
 				diagnose =  diagnose.toString();
-				diagnose = diagnose.split('.');
+				diagnose = diagnose.split('\n');
 				diagnose.pop();
-				var sentimentList = [];
+				var sectionList = [];
 				for(var i = 0; i < contents.length; i++) {
-					if (diagnose[i] == 'NONE') {
-						sentimentList.push("panel panel-danger");
-					}
-					else {
-						sentimentList.push("panel panel-success");
-					}
+					sectionList.push("section"+(i+1).toString());				
 				}
 				for(var i = 0; i < contents.length; i++) {
-					finalreport.push({content: contents[i], sentiment: sentimentList[i], result: diagnose[i]})
+					finalreport.push({content: contents[i], section: sectionList[i], result: diagnose[i]})
 				}
-				res.render('report', {title: 'Radiology Report', filename: req.files.myFile.originalname, report: finalreport, original: data.text_pages});
+				var pdfFile = './../' + req.files.myFile.path.toString();
+				res.render('report', {title: 'Radiology Report', filename: req.files.myFile.originalname, report: finalreport, original: pdfFile});
 			}
 		});	
+	}
+	else {
+		res.render('index', {title: "I love files!"}); 
 	}
 });
 

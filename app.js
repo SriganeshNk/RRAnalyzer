@@ -10,6 +10,7 @@ var routes = require('./routes/index');
 var users = require('./routes/users');
 var uploads = require('./routes/uploads');
 var report = require('./routes/report');
+var load = require('./routes/load');
 var app = express();
 
 // view engine setup
@@ -28,9 +29,11 @@ app.use(multer({ dest: './uploads/'}));
 app.use('/', routes);
 app.use('/users', users);
 app.get('/report', report);
-app.use('/uploads', uploads);
+app.get('/uploads', uploads);
 app.post('/uploads', uploads);
 
+app.get('/loaddb', load);
+app.post('/loaddb', load);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
     var err = new Error('Not Found');

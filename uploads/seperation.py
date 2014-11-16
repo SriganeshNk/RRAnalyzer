@@ -38,6 +38,8 @@ def processsymbol(wordList, symbol):
 			change = wordList[i].split()
 			for x in change:
 				refinedWordList.append(x)
+		else:
+			refinedWordList.append(wordList[i])
 	return refinedWordList
 
 def replace(filename):

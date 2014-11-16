@@ -16,3 +16,9 @@ body {
 .theme-showcase .navbar .container {
   width: auto;
 }
+
+
+#myPopover {
+    text-align: center;
+    margin: 8em 3em;
+}

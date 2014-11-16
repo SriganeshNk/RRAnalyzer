@@ -1,54 +1,87 @@
-Mass Effect
-Cerebral Edema, Cerebral compression, Tumor, Cerebral Hemorrhage, Cerebral Spinal Fluid outflow obstruction, coma
-Midline Shift
-Cerebral Edema, Cerebral compression, Tumor, Cerebral Hemorrhage, Cerebral Spinal Fluid outflow obstruction, coma
-Loss of Grey White Matter Distinction
-Cerebral Edema,  Cerebral Infarct, brain compression
-Hypoattenuation, Hyperdensity 
-Cerebral Infarct, Cerebral Hemorrhage, artifact
-Hypodensity
-Old Stroke, cyst, neoplasm
-Pneumocephalus
-Skull fracture
-Encephalomacia, Cerebromalacia
-Degenerative changes, vascular insufficiency, 
-Gliosis
-Ischemia, trauma, Multiple Sclerosis, Vasculitis, Parkinsons disease, ALS, Huntingtons disease
-Herniation
-Brain Compression
-Intraparenchymal
-Cerebral hemorrhage
-Subarachnoid hemorrhage
-Subarachnoid hemorrhage
-Subdural hematoma
-Subdural hematoma
-Epidural hematoma
-Epidural hematoma
-Intraventricular hemorrhage
-Intraventricular hemorrhage
-Blood in ventricles
-Intraventricular hemorrhage
-Air Fluid Levels
-Sinusitis
-Mucosal thickening
-Sinusitis
-Compression of ventricles  Slit like Ventricles
-Cerebral Edema, Cerebral compression, Tumor, Cerebral Hemorrhage, Subdural hematoma,  Epidural hematoma, Subarachnoid hemorrhage, Cerebral Spinal Fluid outflow obstruction, coma
-Slit like Ventricles
-Cerebral Edema, Cerebral compression, Tumor, Cerebral Hemorrhage, Subdural hematoma,  Epidural hematoma, Subarachnoid hemorrhage, Cerebral Spinal Fluid outflow obstruction, coma
-Petechial Hemorrhage
-Diffuse Axonal Injury, Brain Compression, cerebral edema, coma
-Compression
-Cerebral compression
-Fractures
-Specify in your progress note
-Lacunar infarct / infarction
-Specify in your progress note
-Infarct
-Specify in your progress note
-Vasogenic Edema
-Cerebral Edema, Cerebral Compression, Coma
-hydrocephalus
-Cerebral Edema, Cerebral Compression, Coma, Cerebral Spinal Fluid outflow obstruction
-Extra Axial Collection
-Subdural hematoma
+Mass Effect : Cerebral Edema, Cerebral compression, Tumor, Cerebral Hemorrhage, Cerebral Spinal Fluid outflow obstruction, coma
+Midline Shift : Cerebral Edema, Cerebral compression, Tumor, Cerebral Hemorrhage, Cerebral Spinal Fluid outflow obstruction, coma
+Loss of Grey White Matter Distinction : Cerebral Edema,  Cerebral Infarct, brain compression
+Hypoattenuation, Hyperdensity : Cerebral Infarct, Cerebral Hemorrhage, artifact
+Hypodensity : Old Stroke, cyst, neoplasm
+Pneumocephalus : Skull fracture
+Encephalomacia : Degenerative changes, vascular insufficiency, 
+Cerebromalacia : Degenerative changes, vascular insufficiency, 
+Gliosis : Ischemia, trauma, Multiple Sclerosis, Vasculitis, Parkinsons disease, ALS, Huntingtons disease
+Herniation : Brain Compression
+Intraparenchymal : Cerebral hemorrhage
+Subarachnoid hemorrhage : Subarachnoid hemorrhage
+Subdural hematoma : Subdural hematoma
+Epidural hematoma : Epidural hematoma
+Intraventricular hemorrhage : Intraventricular hemorrhage
+Blood in ventricles : Intraventricular hemorrhage
+Air Fluid Levels : Sinusitis
+Mucosal thickening : Sinusitis, Ulcerative colitis
+Compression of ventricles : Cerebral Edema, Cerebral compression, Tumor, Cerebral Hemorrhage, Subdural hematoma,  Epidural hematoma, Subarachnoid hemorrhage, Cerebral Spinal Fluid outflow obstruction, coma
+Slit like Ventricles : Cerebral Edema, Cerebral compression, Tumor, Cerebral Hemorrhage, Subdural hematoma,  Epidural hematoma, Subarachnoid hemorrhage, Cerebral Spinal Fluid outflow obstruction, coma
+Petechial Hemorrhage : Diffuse Axonal Injury, Brain Compression, cerebral edema, coma
+Compression : Cerebral compression
+Lacunar infarct : Specify in your progress note
+infarction : Specify in your progress note
+Infarct : Specify in your progress note
+Vasogenic Edema : Cerebral Edema, Cerebral Compression, Coma
+hydrocephalus : Cerebral Edema, Cerebral Compression, Coma, Cerebral Spinal Fluid outflow obstruction
+Extra Axial Collection : Subdural hematoma
+Pleural Effusion : Exudative vs. Transudative Pleural Effusion Pneumonia, Liver Disease, Renal Disease, Malnutrition, Empyema, Malignancy, Lupus, TB, Sarcoidosis, Esophageal Rupture, Pleurisy, Hemothorax, Inflammatory Effusion, Malignant Effusion
+Atelectasis : Obstructive – Foreign Body aspiration, Emphysema, Non-Obstructive – ARDS, Mass, Pneumonia, Lung Contusion, Mucus
+Ground Glass Opacity : Pulmonary Edema, Pneumonia, Pneumonitis, Acute Rejection of Transplanted Lung, ARDS, Hemorrhage,  Pulmonary Contusion, Drug Toxicity, Sarcoidosis
+Airspace Opacities : Pneumonia, Pulmonary Hemorrhage, Carcinoma,  TB, (see atelectasis)
+Alveolar Edema : Heart Failure, Renal Failure, ARDS
+Interstitial Edema : Heart Failure, Renal Failure, ARDS
+Pulmonary Vascular Congestion: Heart Failure
+Focal Consolidation : Heart Failure, ARDS, Volume Overload, Renal Failure,  Pneumonia, Trauma, SLE, Sarcoid
+Infiltrates : Pneumonia, Hemorrhage, TB
+Consolidation : Pneumonia, Mass, Pulmonary Edema, Hemorrhage
+Air Space Shadowing : Pneumonia, Mass, Pulmonary Edema, Hemorrhage
+Aspiration : Pneumonia
+Biliary Dilation : Obstruction, Stricture, Stones, Cholangitis, Neoplasm, Pancreatitis
+Thickening of colon : Colitis, diverticulitis, carcinoma, ischemia
+pericolonic stranding : Colitis, diverticulitis, carcinoma, ischemia
+Cholelithiasis : Acute Cholecystitis
+stones : Acute Cholecystitis
+Gallbladder wall thickening : Acute Cholecystitis
+pericholecystic fluid : Acute Cholecystitis
+Enlarged Pancreas : Acute Pancreatitis
+Peripancreatic fluid collections : Acute Pancreatitis
+pancreatic psuedocysts : Acute Pancreatitis
+Dilated Appendix : Acute Appendicitis
+periappendix stranding : Acute Appendicitis
+Hydronephrosis : Renal Stone
+perinephric stranding : Renal Stone
+rim sign : Renal Stone
+Disrupted splenic capsule : Splenic Laceration
+lack of splenic margin : Splenic Laceration
+hypodensity : Splenic Laceration
+hemoperitoneum : Splenic Laceration
+contrast blush : Splenic Laceration
+extravasation : Liver Laceration
+Splenic Laceration : Liver Laceration
+Perihepatic fluid : Liver Laceration
+Fragmented Lobe : Liver Laceration
+capsular tear : Liver Laceration
+parenchymal disruption : Liver Laceration
+Linear hypodensity of pancreas : Pancreatic laceration
+Retropancreatic fluid : Pancreatic laceration
+Retroperitoneal fluid : Source of bleeding
+hematoma : Source of bleeding
+Retroperitoneal extravasation of contrast : Renal Contusion, Laceration, Shattered Kidney,  laceration of renal pelvis
+Adrenal hematoma : Renal Contusion, Laceration, Shattered Kidney,  laceration of renal pelvis
+Mesenteric laceration : Bowel perforation, Ischemic Bowel
+hemoperitoneum : Bowel perforation, Ischemic Bowel
+Extraluminal Air : Bowel perforation
+Free Air : Bowel perforation
+Pneumoperitoneum : Bowel perforation
+extravasation of contrast : Bowel perforation
+discontinuos bowel wall : Bowel perforation
+Extravasation of urine : Bladder Rupture
+Obstructive Gas Pattern : Ileus, Volvulus, Small bowel Obstruction, Large Bowel Obstruction
+Dilated Loops of bowel : Small Bowel Obstruction, Ileus
+Sentinel Loop : Pancreatitis, Ileus
+Dilation of colon : Large Bowel Obstruction, volvulus, Toxic megacolon
+Fluid levels : Ileus
+accumulation : Ileus
+Free Gas : Bowel Perforation					
